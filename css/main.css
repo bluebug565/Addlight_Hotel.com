@@ -1,0 +1,279 @@
+body {
+    width: 100%;
+    height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: justify;
+	color: #444;
+	background-image: url('../img/bg__1.jpg');
+    overflow-x: hidden;	
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed; 
+}
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	background-color: whitesmoke;
+    color: black;
+    opacity: 0.9;
+    text-align: justify;
+}
+/* header section*/
+div#header{
+    height: 100px;	
+    margin-bottom:2px;
+    max-width: 100%;
+    margin:auto;
+    padding-top: 10px;
+    font-style: cataneo BT;
+    background-color:black ;  
+}
+    div#header a{
+    text-decoration:none;
+    font-family: "Times New Roman", Times, serif;      
+}
+    .heading{
+    color:whitesmoke;
+    text-align:left;
+    font-size: 40px;
+    background-color:black ;  		
+    margin-bottom:2px;
+    padding-left: 50px;
+ }
+.subh {
+    font-size: 20px;
+    padding-left: 10em;
+    color: #888;
+}  
+.form{
+	color:red;
+	font-size:20px;
+	text-align:justify;
+}
+/* ending*/
+.reserve {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 25px;
+	border: 2px dotted #fff;
+    color: whitesmoke;
+    background-color: black;
+    width: 100%;
+
+}
+#restaurants li a {
+	color: black;
+}
+.news {
+    margin-bottom: 5pt;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+}
+.event {
+    padding:5pt;
+}
+
+.content {
+	line-height: 24px;
+	padding: 25px;
+}
+.content img {
+	float:right;
+	padding-left: 20px;
+	display:inline;
+}
+.footer {
+	padding: 15px;
+	color:white;
+	background-color: black;
+	font-size: 15px;
+}
+a:link{
+	color:#959bd1;
+	text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+    color: red;
+}
+h1 {
+	font-size: 30px;
+	line-height: 1.5;
+	color: #602E8B;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 1.6;
+	color:black;
+}
+h3 {
+	font-size: 18px;
+	line-height: 1.8;
+	color:black;
+}
+hr {
+    border: solid #ddd;
+    border-width: 5px 0 0; 
+    clear: both; 
+    margin: 22px 0 21px; 
+    height: 0; 
+}
+/*.main-navigation*/
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: inline-block !important;
+	text-align: left;
+    width: 92%;
+    background-color: black;
+    position:fixed;
+    top:0;  	
+}
+.main-navigation ul {
+	margin: 0;
+	text-indent: 0;	
+}
+.main-navigation li a,
+.main-navigation li {
+	display: inline-block;
+	text-decoration: none;	
+}
+.main-navigation li a {
+	border-bottom: 0;
+	color: #6a6a6a;
+	line-height: 3.6;
+	text-transform: uppercase;
+	white-space: nowrap;
+    color:white;
+    text-align: center;    
+}
+.main-navigation li a:hover{
+	color:red;
+}
+.main-navigation li {
+	margin: 0 30px 0 0;
+	position: relative;
+}
+   /* ending*/
+
+/* form-style*/
+.form-style{
+font :Arial, Helvetica , sans-serif ;
+background : lightblue;
+width: 95%;
+margin: auto;
+}
+label{
+    font-size: 20px;
+    color:#602E8B;
+    font-family: Arial, Helvetica , sans-serif ;
+}
+.form-style input[ type ="text" ],
+.form-style input[ type ="email" ],
+.form-style textarea, 
+.form-style select 
+{
+-webkit-transition : all 0.30s ease-in-out ;
+-moz-transition : all 0.30s ease-in-out ;
+-ms-transition : all 0.30s ease-in-out ;
+-o-transition : all 0.30s ease-in-out ;
+outline: none ;
+box-sizing :border-box ;
+-webkit-box-sizing : border-box ;
+-moz-box-sizing : border-box  ;
+width: 95% ;
+background : #fff ;
+margin-bottom : 4% ;
+border : 1px solid #ccc ;
+padding: 3% ;
+color: #555 ;
+font : 95% Arial, Helvetica , sans-serif ;
+}
+.form-style input[ type ="text" ]:focus,
+.form-style input[ type ="email" ]:focus,
+.form-style textarea:focus,
+.form-style select:focus
+{
+box-shadow : 0 0 15px red ;
+padding: 3% ;
+border : 1px solid #43D1AF ;
+}
+.form-style input[ type ="submit" ],
+.form-style input[ type ="button" ]{
+box-sizing : border-box ;
+-webkit-box-sizing : border-box ;
+-moz-box-sizing : border-box ;
+width: 15% ;
+height:30%;
+}
+/* ending*/
+
+/* Intoduction page */
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url('../img/hotel 6.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.cover{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.intro1{
+	font-size: 16px;
+	line-height: 10px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color: white;
+	padding-bottom: 50px;
+}
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px 70px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}
+.btn
+	{
+  background:#000; 
+  color:greenyellow;
+  border:1px solid; 					
+  border-radius:15px; 
+  font-weight:bold;
+  margin:0; 
+  font-size:23px;
+  padding:5px; 
+  position:relative;
+  transition: all 0.8s;
+}
+ .btn:hover{
+   color: forestgreen;
+  }
+/* ending*/

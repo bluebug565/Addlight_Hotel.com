@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reservations | The Addlight Hotel</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <a href="main_page.html">
+                <h1 class="heading"><i>Addlight Hotel <span class="subh"> You'll feel at home in our neigbourhood.</span></i></h1>
+            </a>
+        </div>
+        <div id="hero">
+            <div class="current"><img width="100%" height="500px" src="img/hotel 3.jpg"></div>
+        </div>
+
+        <nav class="main-navigation" role="navigation">
+            <div>
+                <ul id="menu-main-menu" class="nav-menu">
+                    <li><a href="main_page.html">Home</a></li>
+                    <li><a href="restaurant-to-room-service.html">Room Service</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="meetings-events.html">Meetings &#038; Events</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="content">
+            <h1>Reservations</h1>
+            <div>
+                <h3>Tell us when you'll be here!<small></h3>
+				<h2 class="form"> please it is mandatory to fill in the form field with *</h2>
+			
+<div class= "form-style" >
+
+<form name="Form"   onsubmit="return validateForm();" method="post">
+<fieldset >
+<legend><span class= "number" ></span > client Info</legend >
+	<label id ="job"> Room-For:</label>
+<select id= "job" name= "field1"> 
+<optgroup label= "Please Make a Selection">
+<option></option>
+<option value="1" >Rest</option>
+<option value="2" >Business</option>
+<option value="3" >Honeymoon</option>
+<option value="4" >vaction</option>
+</optgroup>
+</select>
+<input type= "text" name= "fname" placeholder ="Your First Name *" required>
+<input type= "text" name= "field1" placeholder ="Your Last Name *" required>
+<input type= "email" name= "field2" placeholder ="Your Email Address*" required>
+<input type= "text" name= "field2" placeholder ="Details of your visit">
+<input type= "button" onclick="confsubmit(this.form);"   value= "Submit"/>
+</fieldset>
+</form>
+
+</div>
+<script>
+	function confsubmit(form){
+    if (confirm("Are you sure you went to sumbit this form")){
+		form.submit();
+	}
+	else{
+		alert("You decided not to submit this form!");
+	}
+	}
+	</script>
+	<script>
+           function validateForm(){
+    var x = document.forms["Form"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+		
+		</div>
+		
+		</div>
+		 <div class="footer">&copy;2018 Addlight Hotel.</div>
+	</div>
+</body>
+</html>
